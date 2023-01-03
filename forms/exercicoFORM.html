@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cadastro Liga dos Astronautas</h2>
+    <form>
+        <label for="nome">Nome:</label> 
+        <input type="text" id="nome" name="nome"> <br>
+    </form> <br>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="pwd"> - Password:</label>
+        <input type="password" id="pwd" name="pwd">
+    </form> <br>    
+    <form>
+        <label for="niver">Data de Nascimento:</label>
+        <input type="date" id="niver" name="niver">
+        <label for="arquivo">Foto:</label>
+        <input type="file" id="myfile" name="myfile">
+    </form><br>
+    <form>
+        <label for="nacionalidade">Nacionalidade:</label>
+        <select name="nacionalidade" id="nacionalidade">
+            <option value="russian">Russo</option>
+            <option value="american">Estadunidense</option>
+            <option value="brasilian">Brasileiro</option>
+        </select> - Genero:
+        <form>
+            <input type="radio" id="masc" name="fav_language" value="MASC">
+            <label for="masc">M</label>
+            <input type="radio" id="fem" name="fav_language" value="FEM">
+            <label for="fem">F</label>
+        </form>
+    </form>
+    <form>
+        <p>Suas Principais Qualidades:</p>
+        <input type="checkbox" id="check1" name="check1" value="Bike">
+        <label for="check1"> Inteligencia</label>
+        <input type="checkbox" id="check2" name="check2" value="Car">
+        <label for="check2"> Resiliencia</label>
+        <input type="checkbox" id="check3" name="check3" value="Boat">
+        <label for="check3"> Preparo Fisico</label>
+        <input type="checkbox" id="check4" name="check4" value="Boat">
+        <label for="check4"> Educação</label>
+    </form><br>
+    <div>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Criar">
+    </div>
+    
+</body>
+</html>
