@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HIRE</title>
+</head>
+<body>
+    <div>
+        <a href="index.html"> <img src="img/logo.png" alt="Descrição da imagem"> </a> | <a href="naves.html">Nossas Naves</a> <a href="hire-us.html">Hire-US</a>
+    <hr>
+    <div>
+        <h2>Entre em Contato</h2>
+        <p>Digite suas informações e o serviço que você deseja contratar da nossa empresa.</p>
+    </div>
+
+    <form>
+        <label for="nome">Nome:</label> 
+        <input type="text" id="nome" name="nome"> - 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+        <br>
+        <label for="naves">Nave/Foguete:</label>
+        <select name="naves" id="naves">
+            <option value="F9">Falcon 9</option>
+            <option value="HEAVY">Falcon Heavy</option>
+        </select>
+        <form action="/action_page.php">
+            <label for="fname">Serviço:</label>
+            <input type="text" id="fname" name="fname" placeholder="Caçar ET etc..."> <br>
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+    </form>
+</body>
+</html>
