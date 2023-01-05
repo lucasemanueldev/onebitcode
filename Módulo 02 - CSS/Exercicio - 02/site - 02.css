@@ -1,0 +1,20 @@
+.date{
+    color: rgb(36, 96, 248);
+    font-family: Roboto;
+    margin-left: 300px;
+}
+
+h1{
+    font-family: Montserrat;
+    margin-left: 300px;
+}
+
+.post-content{
+    font-family: Open Sans;
+    margin-right: 200px;
+    margin-left: 300px;
+}
+
+body{
+    margin-top: 50px;
+}
